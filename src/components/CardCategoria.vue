@@ -11,6 +11,7 @@ export default {
   components: {
     Tag, IngredienteSelecionado
   },
+  emits: ["adicionarIngrediente", "removerIngrediente"],
 };
 </script>
 
@@ -27,7 +28,10 @@ export default {
     </header>
     <ul class="categoria__ingredientes">
       <li v-for="ingrediente in categoria.ingredientes" :key="ingrediente">
-       <IngredienteSelecionado :ingrediente="ingrediente"/>
+       <IngredienteSelecionado :ingrediente="ingrediente"
+        @adicionar-ingrediente="$emit('adicionarIngrediente', $event)"
+        @remover-ingrediente="$emit('removerIngrediente', $event)"
+       />
       </li>
     </ul>
   </article>
