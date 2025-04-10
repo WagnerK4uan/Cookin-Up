@@ -2,7 +2,7 @@
   <footer class="rodape">
     <div class="rodape__conteudo">
       <div class="rodape__texto">
-        <p>Projeto criado por Wagner Kauan</p>
+        <p>Projeto criado por Wagner Kauan para fins de estudo.</p>
         <p>© 2025 Cookin' Up.</p>
       </div>
       <nav class="rodape__navegacao"></nav>
@@ -12,22 +12,21 @@
 
 <style scoped>
 .rodape {
-  background-color: var(--cinza-claro, #f4f4f4);
-  color: var(--cinza-escuro, #333);
-  padding: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-  flex-direction: column; 
-  border-top: 1px solid var(--cinza, #ddd);
-  text-align: center; 
+    background-color:var(--verde-escuro, #263A29);;
+    color: var(--cinza-escuro, #ffffff);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid var(--cinza, #ddd);
+    text-align: center;
 }
 
 .rodape__conteudo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
 }
 
 .rodape__texto {

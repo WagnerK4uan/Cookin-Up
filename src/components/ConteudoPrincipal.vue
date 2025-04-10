@@ -29,6 +29,7 @@ export default {
       @adicionar-ingrediente="adicionarIngrediente"
       @remover-ingrediente="removerIngrediente"
     />
+    
   </main>
   <Rodape />
 </template>
