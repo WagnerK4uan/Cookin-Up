@@ -40,7 +40,7 @@ export default {
     <p class="paragrafo dica">
       *Atenção: consideramos que você tem em casa sal, pimenta e água.
     </p>
-    <BuscarReceita @click="$emit('buscarReceitas')"/>
+    <BuscarReceita texto="Buscar Receitas!"  @click="$emit('buscarReceitas') "/>
   </section>
 </template>
 
