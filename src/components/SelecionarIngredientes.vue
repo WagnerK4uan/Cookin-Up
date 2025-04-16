@@ -5,6 +5,7 @@ import CardCategoria from "./CardCategoria.vue";
 import BuscarReceita from "./BuscarReceita.vue";
 
 export default {
+  name: "SelecionarIngredientes",
   data() {
     return {
       categorias: [] as ICategoria[],
