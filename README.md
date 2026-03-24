@@ -9,14 +9,14 @@
 
 > Caso queira apenas testar a aplicação sem instalar nada:
 
-👉 **https://seu-link-aqui.vercel.app/**
+👉 **https://cookin-up-nu.vercel.app/**
 
 ---
 
 ## 📸 Preview
 
 <div align="center">
-  <img src="" alt="Preview do Cookin' Up" width="600"/>
+  <img src="public/imagens/cookin-up.gif" alt="Preview do Cookin' Up" width="600"/>
 </div>
 
 ---
@@ -34,13 +34,13 @@ O **Cookin' Up** é uma aplicação inspirada em plataformas de receitas, permit
 
 ## 🛠️ Stack
 
-| Camada        | Tecnologia                 |
-| ------------- | -------------------------- |
-| Front-end     | Vue.js / Nuxt              |
-| Linguagem     | JavaScript / TypeScript    |
-| Estilização   | Tailwind CSS / CSS         |
-| Gerenciamento | Pinia / State Management   |
-| Build         | Vite                       |
+| Camada        | Tecnologia               |
+| ------------- | ------------------------ |
+| Front-end     | Vue.js / Nuxt            |
+| Linguagem     | JavaScript / TypeScript  |
+| Estilização   | Tailwind CSS / CSS       |
+| Gerenciamento | Pinia / State Management |
+| Build         | Vite                     |
 
 ---
 
