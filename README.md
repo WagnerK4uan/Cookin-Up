@@ -26,8 +26,6 @@
 O **Cookin' Up** é uma aplicação inspirada em plataformas de receitas, permitindo que usuários:
 
 - Naveguem por receitas
-- Visualizem detalhes completos de preparo
-- Gerenciem receitas favoritas
 - Tenham uma experiência fluida e organizada
 
 ---
@@ -38,7 +36,7 @@ O **Cookin' Up** é uma aplicação inspirada em plataformas de receitas, permit
 | ------------- | ------------------------ |
 | Front-end     | Vue.js / Nuxt            |
 | Linguagem     | JavaScript / TypeScript  |
-| Estilização   | Tailwind CSS / CSS       |
+| Estilização   | Tailwind CSS             |
 | Gerenciamento | Pinia / State Management |
 | Build         | Vite                     |
 
@@ -47,11 +45,9 @@ O **Cookin' Up** é uma aplicação inspirada em plataformas de receitas, permit
 ## ✨ Funcionalidades
 
 - Listagem de receitas
-- Visualização detalhada de cada receita
 - Sistema de busca
-- Favoritar receitas
 - Interface responsiva
-- Organização por categorias (se aplicável)
+- Organização por categorias 
 
 ---
 
