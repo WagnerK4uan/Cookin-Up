@@ -1,40 +1,135 @@
-# cookin-up
+# 🍳 Cookin' Up
 
-This template should help get you started developing with Vue 3 in Vite.
+> Aplicação web para explorar, visualizar e interagir com receitas de forma simples e intuitiva.  
+> Desenvolvido com foco em experiência do usuário, organização de dados e boas práticas de front-end.
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## 🚀 Teste o projeto
 
-## Type Support for `.vue` Imports in TS
+> Caso queira apenas testar a aplicação sem instalar nada:
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+👉 **https://seu-link-aqui.vercel.app/**
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+---
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+## 📸 Preview
 
-## Customize configuration
+<div align="center">
+  <img src="" alt="Preview do Cookin' Up" width="600"/>
+</div>
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+---
 
-## Project Setup
+## 🧠 Sobre o projeto
 
-```sh
+O **Cookin' Up** é uma aplicação inspirada em plataformas de receitas, permitindo que usuários:
+
+- Naveguem por receitas
+- Visualizem detalhes completos de preparo
+- Gerenciem receitas favoritas
+- Tenham uma experiência fluida e organizada
+
+---
+
+## 🛠️ Stack
+
+| Camada        | Tecnologia                 |
+| ------------- | -------------------------- |
+| Front-end     | Vue.js / Nuxt              |
+| Linguagem     | JavaScript / TypeScript    |
+| Estilização   | Tailwind CSS / CSS         |
+| Gerenciamento | Pinia / State Management   |
+| Build         | Vite                       |
+
+---
+
+## ✨ Funcionalidades
+
+- Listagem de receitas
+- Visualização detalhada de cada receita
+- Sistema de busca
+- Favoritar receitas
+- Interface responsiva
+- Organização por categorias (se aplicável)
+
+---
+
+## 📦 Pré-requisitos
+
+- Node.js **18+**
+- npm / yarn / pnpm
+
+```bash
+node -v
+npm -v
+```
+
+---
+
+## ⚙️ Instalação
+
+**1. Clone o repositório**
+
+```bash
+git clone https://github.com/WagnerK4uan/Cookin-Up.git
+cd Cookin-Up
+```
+
+**2. Instale as dependências**
+
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+**3. Rode o projeto**
 
-```sh
+```bash
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+Acesse: http://localhost:3000
 
-```sh
+---
+
+## 🏗️ Build para produção
+
+```bash
 npm run build
+npm run preview
 ```
+
+---
+
+## 🧩 Estrutura do projeto
+
+```
+src/
+ ├── components/   # Componentes reutilizáveis
+ ├── pages/        # Páginas da aplicação
+ ├── assets/       # Imagens e estilos
+ ├── services/     # Requisições/API
+ ├── store/        # Gerenciamento de estado
+ └── utils/        # Funções auxiliares
+```
+
+---
+
+## 🎯 Objetivo
+
+Este projeto foi desenvolvido com foco em:
+
+- Praticar arquitetura front-end
+- Trabalhar com componentes reutilizáveis
+- Melhorar organização de código
+- Simular aplicações reais do mercado
+
+---
+
+## 💡 Aprendizados
+
+- Manipulação de estado global
+- Consumo de APIs
+- Componentização
+- Responsividade
+- Boas práticas com frameworks modernos
